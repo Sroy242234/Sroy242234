@@ -6,7 +6,7 @@
 ## Variables
 * All global variables must be named using upper case, just like: `EXAMPLE_VARIABLE, VERY_IMPORTANT_VARIABLE, ANOTHER_ONE` 
 
-* All local variables must be named using lower case, just like: `example_variable, very_important_variable, another_one`
+* All variables must be named using lower case, just like: `example_variable, very_important_variable, another_one`
 
 * All variables must have good readable names.
 
@@ -16,14 +16,14 @@ Good | `employees_count, user_month_work_days_count, YEAR_TAX, MAX_COMPUTED_SALA
 Bad | `x, $fb, f_ar_type_data, f_obj_result, inputData, returnValue, resultArray, obj1, obj2`
 
 ## Functions
-* Every function must be named like this: `exampleFunction, veryImportantFunction, justAnotherExample`
+* Every function must be named using lower case, just like:: `example_function, very_important_function, just_another_example`
 
 * All functions must have good readable names.
 
 Functions | Example
 -- | --
-Good | `getFullName(), createUser(), startSession(), removeLayer()`
-Bad | `getFullNameAndUserID(), calculateVariable(), abcdeFG(), redBug()`
+Good | `get_full_name(), create_user(), start_session(), remove_layer()`
+Bad | `get_FullNameAndUser_ID(), calculateVariable(), abcdeFG(), red_Bug()`
 
 ## Classes
 * Every class must be named like this: `ExampleClass, VeryImportantClass, JustAnotherClass`
